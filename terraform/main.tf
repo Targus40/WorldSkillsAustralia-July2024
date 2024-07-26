@@ -13,7 +13,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket         = "worldskills8956>"
+    bucket         = "worldskills8956"
     key            = "terraform/terraform.tfstate"
     region         = "us-east-1"
     encrypt        = true
